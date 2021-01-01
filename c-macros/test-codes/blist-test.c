@@ -3,8 +3,8 @@
 #include <string.h>
 #include <errno.h>
 
-#include <bidirectional_list.h>
-#include "read_args.h"
+#include <bidirectional-list.h>
+#include "read-args.h"
 
 struct sample_list_entry {
     struct sample_list_entry *prev;

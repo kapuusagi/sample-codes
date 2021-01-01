@@ -1,6 +1,6 @@
 CFLAGS = -Werror -Wall -I../include
 BLIST_TEST = blist-test
-BLIST_TEST_OBJS = blist-test.o read_args.o 
+BLIST_TEST_OBJS = blist-test.o read-args.o 
 
 TARGETS = $(BLIST_TEST)
 

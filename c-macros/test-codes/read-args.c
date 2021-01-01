@@ -3,9 +3,7 @@
 #include <string.h>
 #include <errno.h>
 
-#if 0
-#include "read_args.h"
-#endif
+#include "read-args.h"
 
 int
 read_args(FILE* fp, char *buf, size_t bufsize, char **argv, int max_argv)
